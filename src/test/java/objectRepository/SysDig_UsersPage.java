@@ -73,9 +73,7 @@ public class SysDig_UsersPage extends SysDig_ElementLocators
 			System.out.println("No SuccessMsgText");
 		}
 		
-		//call screenshot method from TakeScreenShot class
-		TakeScreenShot TSS = new TakeScreenShot();
-		TSS.screenshot(SysDig, "Sysdig", "AddUserConfirm");
+		
 		
 		//Click "Close" button on success modal
 		SysDig.findElement(AddUserClose).click();
@@ -134,9 +132,7 @@ public class SysDig_UsersPage extends SysDig_ElementLocators
 			System.out.println("No SuccessMsgText");
 		}
 		
-		//call screenshot method from TakeScreenShot class
-		TakeScreenShot TSS = new TakeScreenShot();
-		TSS.screenshot(SysDig, "Sysdig", "AddUserConfirm");
+		
 		
 		//Click "Close" button on success modal
 		SysDig.findElement(AddUserClose).click();
