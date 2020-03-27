@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
-       <!class name="testCases.SysDig_AddUsers"/>
-       <class name="testCases.SysDig_TC_Assessment"/>              
+       <class name="testCases.SysDig_AddUsers"/>                 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
